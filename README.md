@@ -50,5 +50,56 @@ pandas
   - RDS
   - CloudWatch
 
-## ▶️ How to Run
-python report_generator.py
+Got it 👍 — here are **very simple, clean steps** you can add to GitHub.
+No extra theory, easy for anyone to follow.
+
+You can **copy-paste this directly** into your README.
+
+---
+
+## ▶️ How to Run the Automation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SumitKuddor/Cloudwatch-Utilization-Automation.git
+cd Cloudwatch-Utilization-Automation
+```
+
+### 2. Install prerequisites
+
+* Python 3.9+
+* AWS CLI
+
+Configure AWS CLI:
+
+```bash
+aws configure
+```
+
+### 3. Install required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Create required folders
+
+```bash
+mkdir images reports
+```
+
+### 5. Run the script
+
+```bash
+python script.py
+```
+
+### 6. Check output
+
+* Excel reports → `reports/`
+* Word reports → `reports/`
+* Graph images → `images/`
+
+---
+
